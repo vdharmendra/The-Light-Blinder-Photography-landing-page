@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capturing Life Through Lens & Light | The Light Blinder Photography</title>
+    <meta name="description" content="Stunning photography capturing every emotion and detail. Explore our portfolio for weddings, portraits, and lifestyle shoots that tell your unique story. Let me know if you d like any adjustments to these or if you need more specific sections!">
+
+    <!--  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+    <!-- BOOTSTARP ICON LINK -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!--  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="bg bg1"></div>
+        <div class="bg bg2"></div>
+        <div class="top">
+            <div class="logo fade"></div>
+            <nav>
+                <ul>
+                    <li><a href="#">blogs</a></li>
+                    <li><a href="#">magazine</a></li>
+                    <li><a href="#">best of week</a></li>
+                    <li><a href="#">best selling</a></li>
+                </ul>
+            </nav>
+            <div class="search fade">
+                <ul>
+                    <li><a href="#"><i class="fas fa-search"></i></a></li>
+                    <li><a href="#"><i class="fas fa-bars"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content fade">
+            <p>Photography that Tells Your Story</p>
+            <h1>Capturing Moments, Creating Timeless Memories</h1>
+            <p class="des">"Discover stunning imagery that brings your moments to life. Whether it's a wedding, event, or personal session, we create photographs you'll cherish forever."</p>
+            <button class="btn btn-3 hover-border-2">
+                <span>Expore</span>
+              </button>
+
+            <!-- <button>read more <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></button> -->
+        </div>
+        <div class="social fade">
+            <ul>
+                <li><i class="fab fa-facebook"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-youtube"></i></li>
+            </ul>
+        </div>
+
+        
+    </div>
+
+    <div class="slider">
+        <div class="slid"></div>
+        <div class="slid"></div>
+        <div class="slid"></div>
+        <div class="slid"></div>
+        <div class="slid"></div>
+
+        <div class="chevron fade">
+            <ul>
+                <li onclick="back()"><i class="fas fa-chevron-left"></i></li>
+                <li style="font-size: 30px;">/</li>
+                <li onclick="next()"><i class="fas fa-chevron-right"></i></li>
+            </ul>
+        </div>
+        
+    </div>
+
+    <script>
+        gsap.from('.bg1', {
+            scale: 1.3,
+            duration: 1,
+        });
+
+        gsap.from('.fade', {
+            opacity: 0,
+            duration: 1,
+            delay: 1,
+        });
+        gsap.from('nav li', {
+            opacity: 0,
+            bottom: 15,
+            delay: 1,
+            stagger: .2,
+        });
+
+        gsap.from('.content', {
+            opacity: 0,
+            left: "200px",
+            delay: 1
+        });
+
+        function next(){
+            gsap.to('.slid', {
+                left: '100%',
+                duration: 1.5,
+                stagger: .1,
+            });
+            gsap.to('.bg1', {
+                opacity: 0,
+                duration: .1,
+                delay: .5
+            });
+
+            gsap.to('.bg2', {
+                opacity: 1,
+                duration: .1,
+                delay: .5
+            });
+        }
+
+        function back(){
+            gsap.to('.slid', {
+                left: '-100%',
+                duration: 1.5,
+                stagger: .1,
+            });
+            gsap.to('.bg1', {
+                opacity: 1,
+                duration: .1,
+                delay: .5
+            });
+
+            gsap.to('.bg2', {
+                opacity: 0,
+                duration: .1,
+                delay: .5
+            });
+        }
+    </script>
+</body>
+</html>
