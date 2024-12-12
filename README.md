@@ -32,7 +32,7 @@
 <br>
 <span>Desktop Desgin</span><br/>
 <a href="" target="_blank" >
-<img src="./img/landing-page.png" width="575px"/>
+<img src="./img/landing-page.gif" width="575px"/>
 </a>
 
  <br />
@@ -44,7 +44,7 @@
  <br />
 <span>Desktop Desgin</span><br/>
 <a href="" target="_blank" >
-<img src="./img/desktop-design.png" width="475px"/>
+<img src="./img/landing-page.png" width="475px"/>
 </a>
 
 <span>Cover</span><br/>
