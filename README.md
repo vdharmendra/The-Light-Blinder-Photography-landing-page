@@ -31,24 +31,25 @@
 
 <br>
 <span>Desktop Desgin</span><br/>
-<a href="" target="_blank" >
+<a href="https://www.behance.net/gallery/214673629/The-Light-Blinder-Photography-Social-Media-Landing-Page" target="_blank" >
 <img src="./img/landing-page.gif" width="575px"/>
 </a>
 
  <br />
 <span>Desktop Desgin ui-ux Layout</span><br/>
-<a href="" target="_blank" >
-<img src="./img/desktop-ui-ux.png" width="475px"/>
+<a href="https://www.behance.net/gallery/214673629/The-Light-Blinder-Photography-Social-Media-Landing-Page" target="_blank" >
+<img src="./img/ui-ux-landing-page.png" width="35px"/>
+<img src="./img/ui-ux-landing-page.gif" width="375px"/>
 </a>
 
  <br />
 <span>Desktop Desgin</span><br/>
-<a href="" target="_blank" >
+<a href="https://www.behance.net/gallery/214673629/The-Light-Blinder-Photography-Social-Media-Landing-Page" target="_blank" >
 <img src="./img/landing-page.png" width="475px"/>
 </a>
 
 <span>Cover</span><br/>
-<a href="" target="_blank" >
+<a href="https://www.behance.net/gallery/214673629/The-Light-Blinder-Photography-Social-Media-Landing-Page" target="_blank" >
 <img src="./img/cover.png" width="575px"/>
 </a>
 
