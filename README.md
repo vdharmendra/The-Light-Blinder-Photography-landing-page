@@ -38,7 +38,7 @@
  <br />
 <span>Desktop Desgin ui-ux Layout</span><br/>
 <a href="https://www.behance.net/gallery/214673629/The-Light-Blinder-Photography-Social-Media-Landing-Page" target="_blank" >
-<img src="./img/ui-ux-landing-page.png" width="357px"/>
+
 <img src="./img/ui-ux-landing-page.gif" width="375px"/>
 </a>
 
